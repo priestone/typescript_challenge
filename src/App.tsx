@@ -8,6 +8,8 @@ const Box = styled.div`
   color: white;
 `;
 
+let words = "김치";
+
 const App: React.FC = () => {
   return (
     <>
