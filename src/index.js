@@ -1,6 +1,7 @@
-import { jsx as _jsx } from "react/jsx-runtime";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import Router from "./Router";
+import { GlobalStyled } from "./GlobalStyled";
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(_jsx(React.StrictMode, { children: _jsx(App, {}) }));
+root.render(_jsxs(React.StrictMode, { children: [_jsx(GlobalStyled, {}), _jsx(Router, {})] }));

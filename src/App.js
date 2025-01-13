@@ -6,7 +6,8 @@ const Box = styled.div `
   background-color: black;
   color: white;
 `;
-let words = "김치";
+let words = true;
+words = ["삼육구", 123];
 const App = () => {
     return (_jsx(_Fragment, { children: _jsx(Box, { children: "\uD504\uB9C1\uAE00\uC2A4" }) }));
 };
